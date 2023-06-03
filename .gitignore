@@ -8,7 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependencies
-node_modules
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -28,3 +27,13 @@ build
 
 # Miscellaneous
 *.local
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+yarn.lock
+pnpm-lock.yaml
+.eslintcache
