@@ -1,5 +1,6 @@
 import logo from "./logo.svg"
 import { Counter } from "./features/counter/Counter"
+import { Page } from "./components/Page"
 import "./App.css"
 
 const App = () => {
@@ -50,6 +51,7 @@ const App = () => {
           </a>
         </span>
       </header>
+      <Page />
     </div>
   )
 }
