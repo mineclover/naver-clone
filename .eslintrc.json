@@ -29,6 +29,12 @@
       {
         "namedComponents": "arrow-function" // 리액트 JSX 문법을 화살표 컴포넌트로 통일시킨다
       }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ]
   }
 }
