@@ -1,6 +1,7 @@
 import React from "react"
 
 import { Header } from "@/components/Header"
+import Test from "@/components/Test"
 
 import "./page.css"
 
@@ -14,6 +15,8 @@ export const Page: React.FC = () => {
 
   return (
     <article>
+      <Test hi={user ? user.name : "null"} />
+
       <Header
         user={user}
         onLogin={() => setUser({ name: "Jane Doe" })}
