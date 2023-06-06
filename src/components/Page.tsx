@@ -15,7 +15,7 @@ export const Page: React.FC = () => {
 
   return (
     <article>
-      <Test hi={user ? user.name : "null"} />
+      {user ? <Test hi={user ? user.name : "null"} /> : ""}
 
       <Header
         user={user}
