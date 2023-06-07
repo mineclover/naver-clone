@@ -19,6 +19,25 @@
   순서대로 컴포넌트의 크기가 커진다
 - 로직은 result에 작성한다
 
+## 상위 컴포넌트에게 type 정보 전달 방법
+
+현재 알고 있는 가장 간단한 방법은
+사용한 type을 export해서 상위 컴포넌트에서 읽어볼 수 있게 하는 것이다
+
+```ts
+export type Props = {
+  iconSet: IconSet
+  setResponse?: React.Dispatch<React.SetStateAction<string>>
+}
+
+export type IconSet = {
+  link: string
+  text: string
+  iconCSS: string
+  size: string
+}
+```
+
 ## Result 와 setResponse
 
 디자인 컴포넌트의 필수 속성이다

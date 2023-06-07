@@ -1,0 +1,54 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 07 Jun 2023 14:15:44 GMT
+ */
+
+:root {
+  --icon-webtoon: no-repeat -225px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-map: no-repeat -201px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-house: no-repeat -45px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-stock: no-repeat -180px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-news: no-repeat 0px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-shopping: no-repeat -90px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-blog: no-repeat -201px -98px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-cafe: no-repeat -250px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-mail: no-repeat -250px -90px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-bg: no-repeat 0px -128px/422px 405px url('/sp_main.png');
+  --icon-bg-hover: no-repeat -142px 0px/422px 405px url('/sp_main.png');
+  --icon-button-hover: no-repeat 0px -69px/422px 405px url('/sp_main.png');
+  --icon-more: no-repeat -250px -135px/422px 405px url('/sp_main.png');
+  --radius-r8: 8px;
+  --radius-r4: 4px;
+  --radius-circle: 1000px;
+  --html-fzoom-1: 10px;
+  --html-fzoom-2: 10.5px;
+  --html-fzoom-3: 12px;
+  --gap-row: 30px;
+  --gap-column: 16px;
+  --gap-header-top: 64px;
+  --gap-header-bottom: 42px;
+  --text-11px: 1.1rem;
+  --text-12px: 1.2rem;
+  --text-13px: 1.3rem;
+  --text-14px: 1.4rem;
+  --text-15px: 15rem;
+  --text-16px: 1.6rem;
+  --text-20px: 2rem;
+  --text-normal: 20px;
+  --weight-bold: 700;
+  --weight-normal: 400;
+  --border-none: none;
+  --border-search-default: 1px soild #03c75a;
+  --size-44: 44px;
+  --size-46: 46px;
+  --size-54: 54px;
+  --size-search-width: 706px;
+  --size-search-height: 60px;
+  --size-header-width: 1280px;
+  --color-naver: #03c75a;
+  --color-clusters: rgba(0,0,0,0);
+  --color-organisms: red;
+  --line-height-normal: 20px;
+  --shodow-hover: 0 2px 4px 0 E0E0E0; /* 0 2px 4px 0 rgba(0,0,0,.12) */
+  --search: 0 2px 4px 0 #E0E0E0;
+}

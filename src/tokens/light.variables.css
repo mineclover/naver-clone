@@ -1,0 +1,85 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 07 Jun 2023 14:15:44 GMT
+ */
+
+:root {
+  --icon-webtoon: no-repeat -225px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-map: no-repeat -201px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-house: no-repeat -45px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-stock: no-repeat -180px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-news: no-repeat 0px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-shopping: no-repeat -90px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-blog: no-repeat -201px -98px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-cafe: no-repeat -250px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-mail: no-repeat -250px -90px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-bg: no-repeat 0px -128px/422px 405px url('/sp_main.png');
+  --icon-bg-hover: no-repeat -142px 0px/422px 405px url('/sp_main.png');
+  --icon-button-hover: no-repeat 0px -69px/422px 405px url('/sp_main.png');
+  --icon-more: no-repeat -250px -135px/422px 405px url('/sp_main.png');
+  --radius-r8: 8px;
+  --radius-r4: 4px;
+  --radius-circle: 1000px;
+  --html-fzoom-1: 10px;
+  --html-fzoom-2: 10.5px;
+  --html-fzoom-3: 12px;
+  --gap-row: 30px;
+  --gap-column: 16px;
+  --gap-header-top: 64px;
+  --gap-header-bottom: 42px;
+  --text-11px: 1.1rem;
+  --text-12px: 1.2rem;
+  --text-13px: 1.3rem;
+  --text-14px: 1.4rem;
+  --text-15px: 15rem;
+  --text-16px: 1.6rem;
+  --text-20px: 2rem;
+  --text-normal: 20px;
+  --weight-bold: 700;
+  --weight-normal: 400;
+  --border-none: none;
+  --border-search-default: 1px soild #03c75a;
+  --size-44: 44px;
+  --size-46: 46px;
+  --size-54: 54px;
+  --size-search-width: 706px;
+  --size-search-height: 60px;
+  --size-header-width: 1280px;
+  --color-naver: #03c75a;
+  --color-search-base: #000;
+  --color-search-border: #e4e7e8;
+  --color-search-bg: #fff;
+  --color-body: #101010;
+  --color-econ: #3fd7bc;
+  --color-calendar: #f08484;
+  --color-title: #080808;
+  --color-dic: #bccdf4;
+  --color-sports: #729df2;
+  --color-setting-bg: #fff;
+  --color-caption-1: #404040;
+  --color-caption-2: #606060;
+  --color-border-out: #e3e5e8;
+  --color-border-in: #ebebeb;
+  --color-border-divider: #ebebeb;
+  --color-border-exception: #ebebeb;
+  --color-button-1: #fff;
+  --color-button-2: #fff;
+  --color-button-border: #dadcdf;
+  --color-button-hover: #e7eced; /* 바로가기 버튼의 색상 */
+  --color-dot-divider: #d3d5d7;
+  --color-block-bg: #fff;
+  --color-board-bg: #f4f6fa;
+  --color-enter-bg: #f2f1fb;
+  --color-enter-base: #e538e2;
+  --color-live-price: #f4361e;
+  --color-new-econ-stay: #909aab; /* 경제 파트  */
+  --color-new-econ-down: #4f67d6;
+  --color-new-base: #3a67ea;
+  --color-option-bg: #f5f7f8;
+  --color-login-bg: #fafbfb;
+  --color-menu-bg: #fff;
+  --line-height-normal: 20px;
+  --gradient-bg: linear-gradient(to bottom, #1e1e20 5%, #1e1f21 38%);;
+  --shodow-border: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+  --shodow-search-hover: 0 2px 4px 0 #E0E0E0;
+}
