@@ -29,7 +29,7 @@ const ExtendArea = styled.div`
   margin: 0;
 
   padding: 18px 23px 17px 25px;
-  margin: 0 -15px 0 -16px;
+  margin: 0 -16px 0 -16px;
   gap: 10px;
   border: 0px solid var(--color-border-in);
 

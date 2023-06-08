@@ -3,13 +3,15 @@ import styled from "@emotion/styled"
 import TopNav from "@@/modules/TopNav"
 import ExtendMenu from "@@/organisms/ExtendMenu"
 
-type Props = {}
+type Props = {
+  top: number
+}
 
-const App = (Props: Props) => {
+const App = ({ top }: Props) => {
   const [trigger, setTrigger] = useState<Boolean>(false)
 
   return (
-    <ExtendArea className={trigger ? "active" : ""}>
+    <ExtendArea top={top} className={trigger ? "active" : ""}>
       <TopNav setResponse={setTrigger} />
       {trigger ? <ExtendMenu /> : ""}
     </ExtendArea>
@@ -18,8 +20,10 @@ const App = (Props: Props) => {
 
 export default App
 
-const ExtendArea = styled.article`
-  position: relative;
+const ExtendArea = styled.article<Props>`
+  z-index: 100;
+  position: absolute;
+  top: ${(props) => (props.top ? props.top : 0)}px;
   display: flex;
   flex-direction: column;
   width: fit-content;
@@ -33,7 +37,8 @@ const ExtendArea = styled.article`
     gap: 19px;
     width: fit-content;
 
-    box-shadow: 0px 4px 8px rgba(0 0, 0, 0.3), 0px 0px 1px #e3e5e8;
+    box-shadow: var(--shadow-nav);
+    outline: 1px solid var(--color-search-border);
     border-radius: var(--radius-r8);
     background-color: var(--color-search-bg);
   }

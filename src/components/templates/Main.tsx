@@ -1,15 +1,19 @@
 import React from "react"
 import styled from "@emotion/styled"
 import TopNavMenu from "../clusters/TopNavMenu"
+import DarkMode from "../modules/DarkMode"
 
 type Props = {}
 
 const App = (props: Props) => {
   return (
     <Warp>
+      <Badge>
+        <DarkMode />
+      </Badge>
       <Header>
         <SearchBar />
-        <TopNavMenu />
+        <TopNavMenu top={136} />
       </Header>
       <Main>
         <MainLeft>
@@ -28,20 +32,26 @@ const App = (props: Props) => {
 
 export default App
 
+const Badge = styled.div`
+  position: fixed;
+  top: 30px;
+  right: 30px;
+`
+
 const SearchBar = styled.div`
+  box-sizing: border-box;
   width: var(--size-search-width);
   height: var(--size-search-height);
-  background-color: var(--color-search-bg);
+
   border-width: 1px;
   border-color: var(--color-naver);
 
   border-radius: var(--radius-circle);
   border-style: solid;
   :hover {
-    background-color: var(--color-search-bg);
     border-color: var(--color-naver);
     border-radius: var(--radius-circle);
-    box-shadow: var(--shodow-search-hover);
+    box-shadow: var(--shadow-search-hover);
 
     border-style: solid;
   }
@@ -54,7 +64,7 @@ const Warp = styled.div`
   padding: 0px;
 
   position: relative;
-  width: 1920px;
+  width: 100%;
 `
 
 const Header = styled.header`

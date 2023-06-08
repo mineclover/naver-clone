@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Jun 2023 16:18:32 GMT
+ * Generated on Thu, 08 Jun 2023 18:08:08 GMT
  */
 
 :root {
@@ -13,13 +13,9 @@
   --icon-blog: no-repeat -201px -98px/422px 405px url('/sp_main.png'); /* name: background */
   --icon-cafe: no-repeat -250px 0px/422px 405px url('/sp_main.png'); /* name: background */
   --icon-mail: no-repeat -250px -90px/422px 405px url('/sp_main.png'); /* name: background */
-  --icon-bg: no-repeat 0px -128px/422px 405px url('/sp_main.png');
-  --icon-bg-hover: no-repeat -142px 1px/422px 405px url('/sp_main.png');
-  --icon-button-hover: no-repeat 0px -69px/422px 405px url('/sp_main.png');
   --icon-more: no-repeat -250px -135px/422px 405px url('/sp_main.png');
   --icon-cross: no-repeat -391px -315px/422px 405px url('/sp_main.png');
   --icon-ui-arrow: no-repeat -412px -243px/422px 405px url('/sp_main.png');
-  --small-bg: no-repeat -295px -212px/422px 405px url('/sp_main.png');
   --small-weather: no-repeat -335px -145px/422px 405px url('/sp_main.png'); /* 28px */
   --small-game: no-repeat -87px -287px/422px 405px url('/sp_main.png');
   --small-pay: no-repeat -335px 0px/422px 405px url('/sp_main.png');
