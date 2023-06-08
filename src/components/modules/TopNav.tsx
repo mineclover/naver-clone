@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import styled from "@emotion/styled"
 import TopLink, { IconCSS } from "../atoms/TopLinkButton"
 import TopExtend from "../atoms/TopNavExtendButton"
@@ -6,7 +6,9 @@ import settings from "@/settings.json"
 
 const lang = settings.lang as "ko" | "en"
 
-type Props = {}
+type Props = {
+  setResponse?: React.Dispatch<React.SetStateAction<Boolean>>
+}
 const menu: IconCSS[] = [
   "webtoon",
   "map",
@@ -65,16 +67,24 @@ const i18n: I18n = {
   },
 }
 
-const TopNav = (props: Props) => {
-  const [response, setResponse] = useState<string>("")
+/**
+ *
+ * @param props
+ * @returns
+ */
+const TopNav = ({ setResponse }: Props) => {
   const [trigger, setTrigger] = useState<Boolean>(false)
 
+  useEffect(() => {
+    if (setResponse === undefined) return
+    setResponse(trigger)
+  }, [trigger])
   const MenuComp = () =>
     menu.map((item, index) => {
       return (
         <NavLi key={`${item},${index}`}>
-          <TopLink setResponse={setResponse} iconCSS={item} />
-          <span>{i18n[item][lang]}</span>
+          <TopLink iconCSS={item} />
+          <NavText>{i18n[item][lang]}</NavText>
         </NavLi>
       )
     })
@@ -82,7 +92,7 @@ const TopNav = (props: Props) => {
   return (
     <NavUl>
       {MenuComp()}
-      <TopExtend />
+      <TopExtend setResponse={setTrigger} />
     </NavUl>
   )
 }
@@ -90,6 +100,7 @@ const TopNav = (props: Props) => {
 export default TopNav
 
 const NavUl = styled.ul`
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -99,14 +110,15 @@ const NavUl = styled.ul`
   padding: 0;
   margin: 0;
   gap: 4px;
+
+  &.active {
+  }
 `
 
 const NavText = styled.span`
   text-overflow: ellipsis;
   white-space: nowrap;
 
-  margin-top: 7px;
-  line-height: 20px;
   text-align: center;
   font-size: var(--text-14px);
   line-height: var(--text-17px);

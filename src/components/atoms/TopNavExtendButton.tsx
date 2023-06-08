@@ -8,24 +8,26 @@ export type Props = {
 
 const TopLinkButton = ({ setResponse }: Props) => {
   const [hover, setHover] = useState<Boolean>(false)
+  const [active, setActive] = useState<Boolean>(false)
 
   useEffect(() => {
     if (setResponse) {
-      if (hover === true) {
-        setResponse(hover)
+      if (active === true) {
+        setResponse(active)
       } else {
         setResponse(false)
       }
     }
-  }, [hover])
+  }, [active])
 
   return (
     <Button
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      onClick={() => setActive(!active)}
     >
       <HideText>바로가기 더 보기</HideText>
-      <Icon />
+      <Icon className={active ? "active" : ""} />
     </Button>
   )
 }
@@ -54,7 +56,7 @@ const Button = styled.button`
   position: relative;
 
   width: 64px;
-  height: 64px;
+  height: 52px;
   flex-shrink: 0;
 
   ::before {
@@ -81,8 +83,13 @@ const Icon = styled.i`
   width: 44px;
   height: 44px;
   padding: 0;
-  margin: 0;
+  margin: -2px 0 0 0;
   background: var(--icon-more);
+  &.active {
+    background: var(--icon-cross);
+    width: 20px;
+    height: 20px;
+  }
 `
 
 // 호버시에 안내 텍스트가 나온다

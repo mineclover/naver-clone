@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jun 2023 14:15:45 GMT
+ * Generated on Thu, 08 Jun 2023 10:03:05 GMT
  */
 
 :root {
@@ -17,6 +17,23 @@
   --icon-bg-hover: no-repeat -142px 0px/422px 405px url('/sp_main.png');
   --icon-button-hover: no-repeat 0px -69px/422px 405px url('/sp_main.png');
   --icon-more: no-repeat -250px -135px/422px 405px url('/sp_main.png');
+  --icon-cross: no-repeat -391px -315px/422px 405px url('/sp_main.png');
+  --samll-bg: no-repeat -295px -212px/422px 405px url('/sp_main.png');
+  --samll-weather: no-repeat -335px -145px/422px 405px url('/sp_main.png'); /* 28px */
+  --samll-game: no-repeat -87px -287px/422px 405px url('/sp_main.png');
+  --samll-pay: no-repeat -335px 0px/422px 405px url('/sp_main.png');
+  --samll-tv: no-repeat -290px -287px/422px 405px url('/sp_main.png');
+  --samll-book: no-repeat 0px -287px/422px 405px url('/sp_main.png');
+  --samll-band: no-repeat -201px -143px/422px 405px url('/sp_main.png');
+  --samll-dict: no-repeat -58px -287px/422px 405px url('/sp_main.png'); /* 사전 */
+  --samll-sport: no-repeat -335px -87px/422px 405px url('/sp_main.png'); /* 사전 */
+  --samll-series: no-repeat -335px -29px/422px 405px url('/sp_main.png'); /* 사전 */
+  --samll-novel: no-repeat -335px -174px/422px 405px url('/sp_main.png'); /* 사전 */
+  --samll-kin: no-repeat -174px -287px/422px 405px url('/sp_main.png'); /* 사전 */
+  --samll-calendar: no-repeat -29px -287px/422px 405px url('/sp_main.png');
+  --samll-happybin: no-repeat -116px -287px/422px 405px url('/sp_main.png');
+  --samll-mybox: no-repeat -261px -287px/422px 405px url('/sp_main.png');
+  --samll-vibe: no-repeat -335px -116px/422px 405px url('/sp_main.png');
   --radius-r8: 8px;
   --radius-r4: 4px;
   --radius-circle: 1000px;
@@ -33,6 +50,7 @@
   --text-14px: 1.4rem;
   --text-15px: 15rem;
   --text-16px: 1.6rem;
+  --text-17px: 1.7rem;
   --text-20px: 2rem;
   --text-normal: 20px;
   --weight-bold: 700;
@@ -78,6 +96,7 @@
   --color-login-bg: #2d2e2f;
   --color-menu-bg: #353637;
   --line-height-normal: 20px;
+  --border-width-1px: 1px;
   --gradient-bg: linear-gradient(to bottom, #1e1e20 5%, #1e1f21 38%);;
   --shodow-border: none;
   --shodow-search-hover: 0 2px 4px 0 #1E1E1E;

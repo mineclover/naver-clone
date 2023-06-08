@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 
 export type Props = {
   // setting: IconSet
-  setResponse?: React.Dispatch<React.SetStateAction<string>>
+  // setResponse?: React.Dispatch<React.SetStateAction<string>>
   iconCSS: IconCSS
 }
 
@@ -82,18 +82,10 @@ const storage = {
 
 const iconCSS = {}
 
-const TopLinkButton = ({ setResponse, iconCSS }: Props) => {
+const TopLinkButton = ({ iconCSS }: Props) => {
   const [hover, setHover] = useState<Boolean>(false)
 
-  useEffect(() => {
-    if (setResponse) {
-      if (hover === true) {
-        setResponse(iconCSS)
-      } else {
-        setResponse("")
-      }
-    }
-  }, [hover])
+  // 상태를 전달하지 않아도 됨으로 setResponse를 생략
 
   return (
     <IconBox>
@@ -101,8 +93,6 @@ const TopLinkButton = ({ setResponse, iconCSS }: Props) => {
         href={storage[iconCSS].link}
         target="_blank"
         rel="noopener noreferrer"
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
       >
         <HideText>{storage[iconCSS].text}</HideText>
         <Icon size={storage[iconCSS].size} iconCSS={iconCSS}></Icon>
@@ -115,7 +105,7 @@ export default TopLinkButton
 
 const IconBox = styled.div`
   width: 58px;
-  height: 58px;
+  height: 52px;
   display: flex;
   justify-content: center;
   align-items: center;
