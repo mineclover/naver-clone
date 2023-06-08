@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import Button from "@@/atoms/atoms.smaple"
+import Button from "@/stories/sample/modules.sample"
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof Button> = {
-  title: "CodeSample/Buttons/Button",
+  title: "CodeSample/Buttons",
   component: Button,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
 
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
-    text: {
-      control: "select",
+    texts: {
+      control: "check",
       options: ["email", "phone", "mail", "hello", "world"],
     },
   },
@@ -24,6 +24,13 @@ type Story = StoryObj<typeof Button>
 export const Primary: Story = {
   // More on args: https://storybook.js.org/docs/react/writing-stories/args
   args: {
-    text: "email",
+    texts: ["A Button", "B Button", "C Button"],
+  },
+}
+
+export const Test: Story = {
+  // More on args: https://storybook.js.org/docs/react/writing-stories/args
+  args: {
+    texts: ["email", "phone", "mail"],
   },
 }
