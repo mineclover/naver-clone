@@ -1,6 +1,9 @@
 import React from "react"
 import styled from "@emotion/styled"
 import Icon, { IconSet } from "./MenuLiButtonIcon"
+import "@/tokens/light.variables.css"
+import "@/tokens/dark.variables.css"
+import "@/index.css"
 
 type Props = {
   iconSet: IconSet

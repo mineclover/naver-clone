@@ -1,8 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import "@/tokens/light.variables.css"
-import "@/tokens/dark.variables.css"
-import "@/index.css"
 
 type Props = {}
 
