@@ -105,7 +105,7 @@ const NavUl = styled.ul`
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
+  width: 676px;
   height: 100%;
   padding: 0;
   margin: 0;

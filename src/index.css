@@ -1,6 +1,7 @@
 body {
   font-size: var(--text-14px);
   line-height: var(--text-17px);
+  letter-spacing: -0.4px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

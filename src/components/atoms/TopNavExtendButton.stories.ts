@@ -6,7 +6,7 @@ import "@/tokens/light.variables.css"
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof TopNavExtendButton> = {
-  title: "components/atoms/TopNavExtendButton",
+  title: "01_atoms/TopNavExtendButton",
   component: TopNavExtendButton,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ["autodocs"],

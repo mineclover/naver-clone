@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import styled from "@emotion/styled"
-import TopNav from "@@/modules/TopNav"
+import ExtendMenuButtons from "../modules/ExtendMenuButtons"
+import HeadLink from "../atoms/HeadLink"
 
 type Props = {}
 
@@ -9,7 +10,8 @@ const App = (Props: Props) => {
 
   return (
     <ExtendArea className={trigger ? "active" : ""}>
-      <Blue>Blue</Blue>
+      <HeadLink />
+      <ExtendMenuButtons />
     </ExtendArea>
   )
 }

@@ -1,0 +1,137 @@
+{
+  "Extend": {
+    "link": {
+      "weather": {
+        "ko": "",
+        "en": ""
+      },
+      "game": {
+        "ko": "",
+        "en": ""
+      },
+      "pay": {
+        "ko": "",
+        "en": ""
+      },
+      "tv": {
+        "ko": "",
+        "en": ""
+      },
+      "book": {
+        "ko": "",
+        "en": ""
+      },
+      "band": {
+        "ko": "",
+        "en": ""
+      },
+      "dict": {
+        "ko": "",
+        "en": ""
+      },
+      "live": {
+        "ko": "",
+        "en": ""
+      },
+      "sport": {
+        "ko": "",
+        "en": ""
+      },
+      "series": {
+        "ko": "",
+        "en": ""
+      },
+      "novel": {
+        "ko": "",
+        "en": ""
+      },
+      "kin": {
+        "ko": "",
+        "en": ""
+      },
+      "calendar": {
+        "ko": "",
+        "en": ""
+      },
+      "happybin": {
+        "ko": "",
+        "en": ""
+      },
+      "mybox": {
+        "ko": "",
+        "en": ""
+      },
+      "vibe": {
+        "ko": "",
+        "en": ""
+      }
+    },
+    "i18n": {
+      "weather": {
+        "ko": "날씨",
+        "en": "Weather"
+      },
+      "game": {
+        "ko": "네이버 게임",
+        "en": "Naver Game"
+      },
+      "pay": {
+        "ko": "네이버 페이",
+        "en": "Naver Pay"
+      },
+      "tv": {
+        "ko": "네이버TV",
+        "en": "Naver TV"
+      },
+      "book": {
+        "ko": "도서",
+        "en": "Book"
+      },
+      "band": {
+        "ko": "밴드",
+        "en": "밴드"
+      },
+      "dict": {
+        "ko": "사전",
+        "en": "Dictionary"
+      },
+      "live": {
+        "ko": "쇼핑라이브",
+        "en": "Shopping Live"
+      },
+
+      "sport": {
+        "ko": "스포츠",
+        "en": "Sports"
+      },
+      "series": {
+        "ko": "시리즈",
+        "en": "Series"
+      },
+      "novel": {
+        "ko": "웹소설",
+        "en": "Novel"
+      },
+      "kin": {
+        "ko": "지식인",
+        "en": "Q & A"
+      },
+      "calendar": {
+        "ko": "캘린더",
+        "en": "calendar"
+      },
+      "happybin": {
+        "ko": "해피빈",
+        "en": "HappyBin"
+      },
+      "mybox": {
+        "ko": "MYBOX",
+        "en": "MYBOX"
+      },
+      "vibe": {
+        "ko": "VIBE",
+        "en": "VIBE"
+      }
+    }
+  }
+}

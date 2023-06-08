@@ -1,39 +1,41 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Jun 2023 10:03:05 GMT
+ * Generated on Thu, 08 Jun 2023 16:18:32 GMT
  */
 
 :root {
-  --icon-webtoon: no-repeat -225px -209px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-map: no-repeat -201px 0px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-house: no-repeat -45px -209px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-stock: no-repeat -180px -209px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-news: no-repeat 0px -209px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-shopping: no-repeat -90px -209px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-blog: no-repeat -201px -98px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-cafe: no-repeat -250px 0px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-mail: no-repeat -250px -90px/422px 405px url("/sp_main.png"); /* name: background */
-  --icon-bg: no-repeat 0px -128px/422px 405px url("/sp_main.png");
-  --icon-bg-hover: no-repeat -142px 1px/422px 405px url("/sp_main.png");
-  --icon-button-hover: no-repeat 0px -69px/422px 405px url("/sp_main.png");
-  --icon-more: no-repeat -250px -135px/422px 405px url("/sp_main.png");
-  --icon-cross: no-repeat -391px -315px/422px 405px url("/sp_main.png");
-  --samll-bg: no-repeat -295px -212px/422px 405px url("/sp_main.png");
-  --samll-weather: no-repeat -335px -145px/422px 405px url("/sp_main.png"); /* 28px */
-  --samll-game: no-repeat -87px -287px/422px 405px url("/sp_main.png");
-  --samll-pay: no-repeat -335px 0px/422px 405px url("/sp_main.png");
-  --samll-tv: no-repeat -290px -287px/422px 405px url("/sp_main.png");
-  --samll-book: no-repeat 0px -287px/422px 405px url("/sp_main.png");
-  --samll-band: no-repeat -201px -143px/422px 405px url("/sp_main.png");
-  --samll-dict: no-repeat -58px -287px/422px 405px url("/sp_main.png"); /* 사전 */
-  --samll-sport: no-repeat -335px -87px/422px 405px url("/sp_main.png"); /* 사전 */
-  --samll-series: no-repeat -335px -29px/422px 405px url("/sp_main.png"); /* 사전 */
-  --samll-novel: no-repeat -335px -174px/422px 405px url("/sp_main.png"); /* 사전 */
-  --samll-kin: no-repeat -174px -287px/422px 405px url("/sp_main.png"); /* 사전 */
-  --samll-calendar: no-repeat -29px -287px/422px 405px url("/sp_main.png");
-  --samll-happybin: no-repeat -116px -287px/422px 405px url("/sp_main.png");
-  --samll-mybox: no-repeat -261px -287px/422px 405px url("/sp_main.png");
-  --samll-vibe: no-repeat -335px -116px/422px 405px url("/sp_main.png");
+  --icon-webtoon: no-repeat -225px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-map: no-repeat -201px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-house: no-repeat -45px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-stock: no-repeat -180px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-news: no-repeat 0px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-shopping: no-repeat -90px -209px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-blog: no-repeat -201px -98px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-cafe: no-repeat -250px 0px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-mail: no-repeat -250px -90px/422px 405px url('/sp_main.png'); /* name: background */
+  --icon-bg: no-repeat 0px -128px/422px 405px url('/sp_main.png');
+  --icon-bg-hover: no-repeat -142px 1px/422px 405px url('/sp_main.png');
+  --icon-button-hover: no-repeat 0px -69px/422px 405px url('/sp_main.png');
+  --icon-more: no-repeat -250px -135px/422px 405px url('/sp_main.png');
+  --icon-cross: no-repeat -391px -315px/422px 405px url('/sp_main.png');
+  --icon-ui-arrow: no-repeat -412px -243px/422px 405px url('/sp_main.png');
+  --small-bg: no-repeat -295px -212px/422px 405px url('/sp_main.png');
+  --small-weather: no-repeat -335px -145px/422px 405px url('/sp_main.png'); /* 28px */
+  --small-game: no-repeat -87px -287px/422px 405px url('/sp_main.png');
+  --small-pay: no-repeat -335px 0px/422px 405px url('/sp_main.png');
+  --small-tv: no-repeat -290px -287px/422px 405px url('/sp_main.png');
+  --small-book: no-repeat 0px -287px/422px 405px url('/sp_main.png');
+  --small-band: no-repeat -201px -143px/422px 405px url('/sp_main.png');
+  --small-dict: no-repeat -58px -287px/422px 405px url('/sp_main.png'); /* 사전 */
+  --small-sport: no-repeat -335px -87px/422px 405px url('/sp_main.png'); /* 사전 */
+  --small-series: no-repeat -335px -29px/422px 405px url('/sp_main.png'); /* 사전 */
+  --small-novel: no-repeat -335px -174px/422px 405px url('/sp_main.png'); /* 사전 */
+  --small-kin: no-repeat -174px -287px/422px 405px url('/sp_main.png'); /* 사전 */
+  --small-calendar: no-repeat -29px -287px/422px 405px url('/sp_main.png');
+  --small-happybin: no-repeat -116px -287px/422px 405px url('/sp_main.png');
+  --small-mybox: no-repeat -261px -287px/422px 405px url('/sp_main.png');
+  --small-vibe: no-repeat -335px -116px/422px 405px url('/sp_main.png');
+  --small-live: no-repeat -335px -58px/422px 405px url('/sp_main.png');
   --radius-r8: 8px;
   --radius-r4: 4px;
   --radius-circle: 1000px;
@@ -44,11 +46,12 @@
   --gap-column: 16px;
   --gap-header-top: 64px;
   --gap-header-bottom: 42px;
+  --gap-header-gap: 12px;
   --text-11px: 1.1rem;
   --text-12px: 1.2rem;
   --text-13px: 1.3rem;
   --text-14px: 1.4rem;
-  --text-15px: 15rem;
+  --text-15px: 1.5rem;
   --text-16px: 1.6rem;
   --text-17px: 1.7rem;
   --text-20px: 2rem;
@@ -63,6 +66,7 @@
   --size-search-width: 706px;
   --size-search-height: 60px;
   --size-header-width: 1280px;
+  --size-header-height: 156px; /* border-box를 사용하면 262px  그러나 width에 먹통이 되는 문제 */
   --color-naver: #03c75a;
   --color-search-base: #000;
   --color-search-border: #e4e7e8;
@@ -98,8 +102,11 @@
   --color-menu-bg: #fff;
   --line-height-normal: 20px;
   --border-width-1px: 1px;
-  --gradient-bg: linear-gradient(to bottom, #1e1e20 5%, #1e1f21 38%);
-  --shodow-border: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0, 0, 0, 0.04);
-  --shodow-search-hover: 0 2px 4px 0 #e0e0e0;
-  --shodow-search-extend-bar: 0 0 0 1px #e3e5e8, 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  --main-left-wedth: 830px;
+  --main-right-wedth: 420px;
+  --gradient-bg: linear-gradient(to bottom, #1e1e20 5%, #1e1f21 38%);;
+  --shodow-border: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+  --shodow-search-extend-bar: 0 0 0 1px #e3e5e8, 0 4px 8px 0 rgba(0,0,0,.3);
+  --shodow-search-hover: 0 2px 4px 0 rgba(0,0,0,0.12);
+  --shodow-search-active: 0 4px 8px 0 rgba(0,0,0,0.13);
 }
