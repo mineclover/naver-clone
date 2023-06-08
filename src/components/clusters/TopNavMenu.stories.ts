@@ -2,9 +2,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 import TopNavMenu from "./TopNavMenu"
 
-import "@/tokens/light.variables.css"
-import "@/index.css"
-
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof TopNavMenu> = {
   title: "04_clusters/TopNav",

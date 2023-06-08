@@ -2,11 +2,9 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 import DarkMode from "./DarkMode"
 
-import "@/tokens/light.variables.css"
-
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof DarkMode> = {
-  title: "02-modules/DarkMode",
+  title: "components/DarkMode",
   component: DarkMode,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ["autodocs"],

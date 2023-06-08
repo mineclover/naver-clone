@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import Dark from "@@/atoms/DarkIcon"
+import Dark from "@/components/atoms/DarkIcon"
 import styled from "@emotion/styled"
 
 type Props = {}

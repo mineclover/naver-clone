@@ -2,8 +2,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 import MenuLiButton from "./MenuLiButton"
 
-import "@/tokens/light.variables.css"
-
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof MenuLiButton> = {
   title: "01_atoms/MenuLiButton",

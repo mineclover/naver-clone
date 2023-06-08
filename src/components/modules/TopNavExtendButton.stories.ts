@@ -2,8 +2,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 import TopNav from "./TopNav"
 
-import "@/tokens/light.variables.css"
-
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof TopNav> = {
   title: "02_modules/TopNav",

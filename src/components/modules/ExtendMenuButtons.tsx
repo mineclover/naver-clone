@@ -1,5 +1,5 @@
 import React from "react"
-import MenuLi from "@@/atoms/MenuLiButton"
+import MenuLi from "@/components/atoms/MenuLiButton"
 import styled from "@emotion/styled"
 
 import settings from "@/settings.json"

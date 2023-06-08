@@ -15,6 +15,15 @@ const preview: Preview = {
           ? 0
           : a.title.localeCompare(b.title, undefined, { numeric: true }),
     },
+    staticDirs: ["../public"],
+    previewHead: (head) => `
+    ${head}
+    
+<link rel="stylesheet" href="https://unpkg.com/reset-css" />
+<link rel="stylesheet" href="/src/index.css" />
+<link rel="stylesheet" href="/src/tokens/light.variables.css" />
+    
+  `,
   },
 }
 

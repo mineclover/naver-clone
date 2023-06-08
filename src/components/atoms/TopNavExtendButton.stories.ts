@@ -2,8 +2,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 import TopNavExtendButton from "./TopNavExtendButton"
 
-import "@/tokens/light.variables.css"
-
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof TopNavExtendButton> = {
   title: "01_atoms/TopNavExtendButton",
