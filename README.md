@@ -9,11 +9,11 @@
 ## 조기 종료
 
 네이버에서 사용되는 ui 구조가 재사용되는 게 아니라 각각의 UI들이 목적에 맞게 설계된 것을 알 수 있었음
-디자인 시스템을 적용하기에는 패턴이 너무 다양하다
+네이버는 디자인 시스템을 적용하기에는 패턴이 너무 다양하다
 분석하고 제작 하면서 원하는 성과를 달성함
 
-- [x] pages
-- [x] dark mode
+[네이버 클론코딩](https://softer-naver.netlify.app/)
+[스토리북](https://softer-naver-storybook.netlify.app/)
 
 ## 성과
 
